@@ -2,8 +2,8 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section class='flex flex-col md:flex-row items-center px-8 md:px-14 font-poppins w-full min-h-screen'>
-      <div class='flex flex-col flex-1 w-full justify-start items-start pt-12 pb-24 mr-4'>
+    <section class='flex flex-col md:justify-center lg:flex-row items-center px-8 md:px-14 font-poppins w-full min-h-screen' id="hero_section">
+      <div class='flex flex-col flex-1 w-full justify-start items-start py-12 mr-4'>
         <p class='uppercase font-medium text-[#EA0000] tracking-wider'>Now taking online ordres</p>
         <div className='flex justify-between flex-row'>
           <h1 class='font-abh font-bold text-[120px] -tracking-[10px] mr-14' style={{ color: '#EA0000'}}>kababs</h1>
@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div class='relative w-full h-full flex flex-1'>
+      <div class='relative flex justify-center items-center flex-1'>
         <div>
           <img src={require('../images/hero3.png')} alt='' className='w-full h-full object-cover' />
         </div>
