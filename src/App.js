@@ -4,8 +4,10 @@ import { Hero } from './container';
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <div>
+        <Navbar />
+        <Hero />
+      </div>
     </>
   );
 };

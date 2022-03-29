@@ -33,7 +33,7 @@ const Navbar = () => {
       <ul className='hidden md:flex items-center space-x-6 md:space-x-8 lg:space-x-10'>
         {
           links.map((link, index) => (
-            <li key={index} className={ index === 0 && `border-b-2 border-red-500 px-2`}><NavLink to={link.link}>{link.name}</NavLink></li>
+            <li key={index} className={ index === 0 ? `border-b-2 border-red-500` : ''}><NavLink to={link.link}>{link.name}</NavLink></li>
           ))
         }
       </ul>
@@ -63,8 +63,13 @@ const Navbar = () => {
           </svg>
         </button>
       </div>
-
-      <HiMenuAlt3 fontSize={27} className="h-6 w-6 cursor-pointer md:hidden block" onClick={() => setToggleNav(!toggleNav)}/>
+        { toggleNav ? (
+          <AiFillCloseCircle fontSize={27} className="h-6 w-6 cursor-pointer md:hidden block" onClick={() => setToggleNav(!toggleNav)}/>
+        ) : (
+          
+          <HiMenuAlt3 fontSize={27} className="h-6 w-6 cursor-pointer md:hidden block" onClick={() => setToggleNav(!toggleNav)}/>
+        )}
+      
       {
         toggleNav && (
           <ul className='mt-1 md:hidden flex flex-col items-center absolute top-[6vh] right-0 w-full z-200 space-y-10 p-10 bg-gray-100 bg-opacity-60 backdrop-filter backdrop-blur-lg'>
