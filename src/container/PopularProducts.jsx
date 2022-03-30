@@ -13,10 +13,10 @@ import {
 const PopularProducts = () => {
   return (
     <div
-      className='relative flex flex-col py-12 lg:py-6 font-poppins h-screen'
+      className='relative flex flex-col py-12 lg:py-6 font-poppins'
       id='popular_products'
     >
-      <img src={require('../images/image35.png')} alt="" className='absolute top-40 md:top-20 -left-4 w-12 h-12 rotate-12 blur-sm' />
+      <img src={require('../images/image35.png')} alt="" className='absolute top-60 md:top-20 -left-4 w-12 h-12 rotate-12 blur-sm' />
       <div className='flex flex-col justify-center items-center pb-10 md:pb-20'>
         <h4 className='text-[#2A333E] font-bold leading-7 text-center uppercase tracking-[0.02em]'>
           Online Store
