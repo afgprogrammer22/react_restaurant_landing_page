@@ -16,16 +16,20 @@ const PopularProducts = () => {
       className='relative flex flex-col py-12 lg:py-6 font-poppins'
       id='popular_products'
     >
-      <img src={require('../images/image35.png')} alt="" className='absolute top-60 md:top-20 -left-4 w-12 h-12 rotate-12 blur-sm' />
+      <img
+        src={require('../images/image35.png')}
+        alt=''
+        className='absolute top-60 md:top-20 -left-4 w-12 h-12 rotate-12 blur-sm'
+      />
       <div className='flex flex-col justify-center items-center pb-10 md:pb-20'>
-        <h4 className='text-[#2A333E] font-bold leading-7 text-center uppercase tracking-[0.02em]'>
+        <h4 className='text-[#2A333E] font-bold text-xl leading-7 text-center uppercase tracking-[0.02em]'>
           Online Store
         </h4>
-        <h1 className='text-[60px] text-[#EA0000] font-extrabold leading-[60px] -tracking-[0.08em]'>
+        <h1 className='text-[60px] text-[#EA0000] font-extrabold leading-[60px] -tracking-[0.08em] text-center'>
           <span className='font-abh'>Popular Products</span>
         </h1>
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-8 md:px-16 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-8 md:px-16'>
         <SingleProduct
           imgUrl={product1}
           stars={stars1}

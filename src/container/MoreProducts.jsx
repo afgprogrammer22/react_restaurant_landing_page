@@ -55,7 +55,7 @@ const MoreProducts = () => {
             />
           </button>
 
-          <div className='w-full md:w-2/3 my-4'>
+          <div className='my-4'>
             <h1 className='font-semibold md:font-extrabold text-[40px] md:text-[60px] text-[#EA0000] leading-[35px] md:leading-[62px] tracking-[-0.06em]'>
               <span className='font-abh'>
                 Get delivered while it is still hot.
