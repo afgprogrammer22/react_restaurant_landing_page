@@ -2,8 +2,8 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section class='flex flex-col md:justify-center lg:flex-row items-center px-8 md:px-14 font-poppins w-full min-h-screen' id="hero_section">
-      <div class='flex flex-col flex-1 w-full justify-start items-start py-12 mr-4'>
+    <section class='flex flex-col justify-center items-center lg:flex-row  px-8 md:px-14 font-poppins w-full min-h-screen' id="hero_section">
+      <div class='flex flex-col flex-1 w-full justify-center items-center md:justify-start md:items-start py-12 mr-4'>
         <p class='uppercase font-medium text-[#EA0000] tracking-wider'>Now taking online ordres</p>
         <div className='flex justify-between flex-row'>
           <h1 class='font-abh font-bold text-[120px] -tracking-[10px] mr-14' style={{ color: '#EA0000'}}>kababs</h1>
@@ -11,7 +11,7 @@ const Hero = () => {
           <p className='hidden md:block opacity-10 font-bold -rotate-90 text-4xl font--bold text-[#2A333E]'><span className="text-xl font-medium">$</span>14.97</p>
         </div>
         <div className='mb-6'>
-          <p className='font-medium leading-8 text-[#2A333E] w-2/3'>Restaurant style Yogurt Mint Sauce is delicious dip which is quick and easy to ... This is a standard Indian mint chutney served with poppadums along with mint and lemon.</p>
+          <p className='font-medium leading-8 text-[#2A333E] w-full md:w-2/3 '>Restaurant style Yogurt Mint Sauce is delicious dip which is quick and easy to ... This is a standard Indian mint chutney served with poppadums along with mint and lemon.</p>
         </div>
 
         <div className='flex items-center mb-6'>
