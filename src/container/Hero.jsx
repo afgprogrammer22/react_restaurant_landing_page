@@ -11,7 +11,7 @@ const Hero = () => {
           <p className='hidden md:block opacity-10 font-bold -rotate-90 text-4xl font--bold text-[#2A333E]'><span className="text-xl font-medium">$</span>14.97</p>
         </div>
         <div className='mb-6'>
-          <p className='font-medium leading-8 text-[#2A333E]'>Restaurant style Yogurt Mint Sauce is delicious dip which is quick and easy to ... This is a standard Indian mint chutney served with poppadums along with mint and lemon.</p>
+          <p className='font-medium leading-8 text-[#2A333E] w-2/3'>Restaurant style Yogurt Mint Sauce is delicious dip which is quick and easy to ... This is a standard Indian mint chutney served with poppadums along with mint and lemon.</p>
         </div>
 
         <div className='flex items-center mb-6'>
