@@ -6,7 +6,7 @@ const message2 = '“Out believe has request not how comfort evident. Up delight
 
 const Testimonials = () => {
   return (
-    <div className='flex flex-col justify-center px-8 md:px-16 mb-20 font-poppins'>
+    <div className='flex flex-col justify-center px-8 md:px-16 mb-60 font-poppins'>
         <div className="flex flex-col items-center justify-center my-10">
             <h4 className='text-[#2A333E] font-bold text-xl leading-7 text-center uppercase tracking-[0.02em]'>Testimonial</h4>
             <h1 className='text-[60px] text-[#EA0000] font-extrabold leading-[60px] -tracking-[0.08em] text-center'>

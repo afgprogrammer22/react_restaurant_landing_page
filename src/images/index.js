@@ -1,3 +1,7 @@
+import logo from './logo.svg'
+import search from './search.svg'
+import user from './user.svg'
+import wallet from './wallet.svg'
 import product1 from './product1.png';
 import product2 from './product2.png';
 import product3 from './product3.png';
@@ -30,7 +34,17 @@ import dish6 from './Dish6.png'
 import person1 from './person1.png'
 import person2 from './person2.png'
 
+import vector from './Vector.png'
+
+import location from './location.svg'
+import email from './email.svg'
+import phone from './phone.svg'
+
 export {
+  logo,
+  search,
+  wallet,
+  user,
   product1,
   product2,
   product3,
@@ -58,5 +72,11 @@ export {
   Decore,
 
   person1,
-  person2
+  person2,
+
+  vector,
+
+  phone,
+  location,
+  email,
 };
