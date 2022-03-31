@@ -27,6 +27,9 @@ import dish4 from './Dish4.png'
 import dish5 from './Dish5.png'
 import dish6 from './Dish6.png'
 
+import person1 from './person1.png'
+import person2 from './person2.png'
+
 export {
   product1,
   product2,
@@ -52,5 +55,8 @@ export {
   dish5,
   dish6,
 
-  Decore
+  Decore,
+
+  person1,
+  person2
 };
