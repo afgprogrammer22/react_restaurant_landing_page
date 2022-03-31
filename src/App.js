@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import { Hero, PopularProducts, MoreProducts, BestSellers, Testimonials } from './container';
+import { Hero, PopularProducts, MoreProducts, BestSellers, Testimonials, NewsLetter } from './container';
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
       <MoreProducts />
       <BestSellers />
       <Testimonials />
+      <NewsLetter />
     </>
   );
 };
